@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  border: none;
+  border-radius: 10px;
+  font-family: roboto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+.profile {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  padding: 18px 23px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.name {
+  color: #d4d2db;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: baseline;
+}
+.blnc-heading {
+  color: #585076;
+  font-size: 17px;
+}
+.balance {
+  color: #d4d2db;
+  font-size: 20px;
+}
+.rupees {
+  color: #585076;
+  font-size: 10px;
+  font-weight: 500;
+}
+.withdraw {
+  color: #d4d2db;
+  font-size: 18px;
+}
+.choose {
+  color: #585076;
+  font-size: 13px;
+}
+.button-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
